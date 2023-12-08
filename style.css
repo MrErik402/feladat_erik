@@ -1,0 +1,15 @@
+#kartya{
+    border: 2px black solid ;
+    background-color: aqua;
+    color: brown;
+    width: 150px;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+}
+#kartya:hover{
+    background-color: red;
+    color: black;
+    border-radius: 25px;
+    border: 2px green solid;
+}
