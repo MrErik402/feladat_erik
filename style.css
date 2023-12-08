@@ -1,20 +1,25 @@
-#kartya{
-    border: 2px black solid ;
-    background-color: aqua;
-    color: brown;
-    width: 150px;
-    display: grid;
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-items: center;
-    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(153, 84, 218, 0.836);
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
-#kartya:hover{
-    background-color: red;
-    color: black;
+button{
+    height: 50px;
+    width: 150px;
+    border: 3px solid rgb(250, 248, 248);
+    border-radius: 15px;
+    background-color: aqua;
+    color: rgb(2, 2, 2);
+}
+button:hover{
+    background-color: rgb(76, 171, 226);
+    border: 3px solid rgba(74, 18, 230, 0.555);
     border-radius: 25px;
-    border: 2px green solid;
-}
-#kartyafej{
-    margin-top: 25px;
-    margin-bottom: 25px;
-    border-bottom: 2px solid black;
+    color: white;
 }
